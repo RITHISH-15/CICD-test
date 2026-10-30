@@ -1,0 +1,65 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fcf8f2;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 100%;
+    max-width: 600px;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(139, 69, 19, 0.1);
+    border-top: 5px solid #8b4513;
+}
+
+header h1 {
+    color: #8b4513;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.subtitle {
+    text-align: center;
+    color: #666;
+    font-size: 14px;
+    margin-bottom: 25px;
+}
+
+.info-card, .kural-card, .motivation-card {
+    background: #fffaf0;
+    border: 1px solid #faebd7;
+    padding: 15px 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.kural-card h2 {
+    color: #b8860b;
+    margin-top: 0;
+    font-size: 20px;
+}
+
+.verse {
+    font-size: 18px;
+    font-weight: bold;
+    color: #2c3e50;
+    margin: 15px 0;
+    text-align: center;
+}
+
+.meanings p {
+    line-height: 1.6;
+    font-size: 14px;
+}
+
+.motivation-card {
+    background: #eef9f2;
+    border-color: #d4edda;
+    color: #155724;
+}
